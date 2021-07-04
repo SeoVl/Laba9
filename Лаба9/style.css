@@ -1,0 +1,689 @@
+@font-face {
+    font-family: Roboto; 
+    src: url(Roboto-Regular.ttf); 
+}
+header{
+    font-family: Roboto;
+    height: 64px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.kartin a{
+    text-decoration: none;
+    color:black;
+}
+.kartin{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.kartin .Polzunok{
+    position: absolute;
+    top: 12px;
+    margin-left: 12px;
+}
+.kartin:nth-child(2){
+    width: 98px;
+}
+.kartin:nth-child(3){
+    width: 68px;
+}
+.kartin:last-child{
+    width: 118px;
+}
+.left{
+    margin-left: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 650px;
+}
+*{
+    margin: 0;
+}
+.button{
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 700;
+    width: 144px;
+    height: 48px;
+    background: #00C805;
+    border-radius: 24px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+button:active{
+    transform: scale(1.2);
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 224px;
+    height: 64px;
+    margin-right: 24px;
+}
+.autoriz{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+.portion2{
+    width: 100vw;
+    height: 654px;
+    background: #C3F53C;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+}
+.half:first-child{
+    height: 450px;
+    margin-left: 117px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.half:last-child{
+    margin-right: 117px;
+}
+.text1{
+    width: 300px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    letter-spacing: 1.75px;
+}
+.text2{
+    width: 486px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.24px;
+}
+.portion2 button{
+    background: black;
+    color: white;
+}
+.comiss{
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 365px;
+}
+
+.portion3 hr{
+    background:black;
+    border:none;
+    height: 1px;
+}
+.portion3{
+    height: 94px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.portion3 .text{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    display: flex;
+    justify-content: center;
+}
+.portion3 span{
+    font-weight: 700;
+    text-decoration: underline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.portion4{
+    width: 100vw;
+    height: 453px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+}
+.half1:first-child{
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+    width: 55.94vw;
+}
+.half1:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 114px;
+    width: 44.06vw;
+}
+.investo{
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.75px;
+}
+.camp{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    width: 183px;
+    justify-content: space-between;
+}
+
+
+.portion5{
+    width: 100vw;
+    height: 36.806vw;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.portion5 .half:first-child{
+    width: 68.059vw;
+    margin-left: 8.125vw;
+}
+.portion5 .half:last-child{
+    margin-right: 6.8vw;
+    width:21.3vw;
+}
+.half:last-child img{
+
+    height: 35.806vw;
+}
+.tekst{
+    margin-top: 3.33vw;
+    font-family: Roboto;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0.3199999928474426px;
+}
+.tekst1{
+    margin-top: 1.25vw;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #6F787E;
+}
+.component h3{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+}
+.component p{
+    width: 250px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+}
+.ryad{
+    margin-top: 3.33vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60.417vw;
+}
+.component{
+    height: 148px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.component:nth-child(2){
+    height: 120px;
+}
+.nis{
+    margin-top: 4.306vw;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #6F787E;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    width:275px;
+    justify-content: space-between;
+}
+.portion5 hr{
+    border: none;
+    background: black;
+    height: 1px;
+}
+
+.portion6{
+    width: 100vw;
+    height: 47.29vw;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.teh h1{
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 1.75px;
+    color: white;
+}
+.teh p{
+    width: 446px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: white;
+}
+.teh{
+    margin-top: -6.94vw;
+    height: 165px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.portion6 nav a{
+    text-decoration: none;
+    color: #545D61;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.23999999463558197px;
+}
+.portion6 nav{
+    display: flex;
+    flex-direction: column;
+    width: 112.84px;
+    height: 152px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.telefon{
+    margin-left: 14.09vw;
+    display: flex;
+    flex-direction: column;
+    width: 112.84px;
+    height: 240px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.portion6 nav a:first-child{
+    color: white;
+}
+.phone img{
+    object-fit: cover;
+    width: 29.375vw;
+    height: 34.72vw;
+}
+footer{
+    width: 100vw;
+    height: 56.57vw;
+    background: black;
+}
+.cols{
+    margin-top:54px;
+}
+.uppart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cols{
+    width: 625px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.uppart nav a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: white;
+    margin-bottom: 16px;
+}
+.stocks nav{
+    display: flex;
+    flex-direction: column;
+    width: 186px;
+}
+.main{
+    width: 1206px;
+    margin: 0 auto 0 auto;
+}
+.snacks{
+    margin-top:54px;
+    width: 492px;
+}
+.snacks p{
+    margin-top: 18px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #79858B;
+}
+footer .button{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    width: 155px;
+    height: 28px;
+    background: #00C805;
+    border-radius: 24px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left:-323px;
+    margin-top: -28px;
+    position: absolute;
+}
+footer button:active{
+    transform: scale(1.2);
+}
+footer .form {
+    font-family: Open-Sans;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    color: white;
+}
+footer .form{
+    width: 650px;
+}
+footer input{
+    margin-top: -28px;
+    width: 455px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 32px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    resize: none;
+    position: relative;
+}
+footer label{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    position: absolute;
+    margin-top: -133px;
+    margin-left: 37px;
+    color: rgba(255, 255, 255, 0.5);
+}
+footer input:focus, footer input{
+    color: #00C805;
+    font-family: Open-Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-top: 10px;
+
+}
+footer input[type="text"]{
+    padding-left: 37px;
+}
+footer .field {
+    position: relative;
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+footer label {
+position: absolute;
+left: 0px;
+top: 161px;
+transition: top 0.5s;
+pointer-events: none;
+}
+footer input:focus,
+footer textarea:focus {
+outline: none;
+background-size: 100% 100%, 100% 100%;
+transition-duration: 0.3s;
+box-shadow: none;
+}
+footer input:focus+label,
+footer input:not(:placeholder-shown)+label,
+textarea:focus+label,
+textarea:not(:placeholder-shown)+label {
+top: 145px;
+}
+.zzz nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 17px;
+}
+.zzz nav a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+}
+footer hr{
+    border:none;
+    background: #79858B;
+    height: 1px;
+    margin-top: 20px;
+}
+footer p, .fir{
+    color: white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    margin-top: 26px;
+}
+.fir{
+    margin-top: 36px;
+}
+footer span{
+    margin-left: 18px;
+    margin-right: 18px;
+    color: #00C805;
+    font-size: 14px;
+}
+.sign{
+    height: 30px;
+    width: 269.5px;
+    color: #79858B;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.portion7{
+    width: 100vw;
+    height: 51vw;
+    background: #F0EBE6;
+}
+
+.tabs {
+    margin: 0;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+  }
+
+  .tabs {
+    max-width: 694px;
+  }
+
+  .tabs>input[type="radio"] {
+    display: none;
+  }
+
+  .tabs>input[type="radio"]:checked+label {
+    cursor: default;
+    color: black;
+  }
+
+  .tabs>div {
+    display: none;
+    padding-top: 74px;
+  }
+
+  #tab-btn-1:checked~#content-1,
+  #tab-btn-2:checked~#content-2,
+  #tab-btn-3:checked~#content-3,
+  #tab-btn-4:checked~#content-4,
+  #tab-btn-5:checked~#content-5 {
+    display: block;
+  }
+
+  .tabs>label {
+    display: inline-block;
+    padding: 2px 0;
+    font-size: 22px;
+    transition: color 0.15s ease-in-out;
+    margin-left: 30px;
+    cursor: pointer;
+    color: #6F787E;
+  }
+
+  .tabs>label:first-of-type {
+    margin-left: 0;
+  }
+  .tabs>label:last-of-type {
+    color: #FF90AF;
+    position: relative;
+
+  }
+  .thing{
+    position: absolute;
+    margin-left: 577px;
+    margin-top: -163px;
+  }
+  .portion7 h1{
+    font-family: Roboto;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.3199999928474426px;
+    margin-bottom: 26px;
+    padding-top: 82px;
+  }
+  .portion7 .main{
+    width: 1206px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .portion7 button{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    width: 155px;
+    height: 28px;
+    background: black;
+    border-radius: 24px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+button:active{
+    transform: scale(1.2);
+}
+.fields{
+  margin-top: 217px;
+}
+.lst{
+  width: 369.25px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  color: #6F787E;
+  margin-top: 124px;
+}
+.halfs:first-child{
+  z-index: 2;
+  position: relative;
+}
+.halfs:last-child{
+  z-index: 1;
+  margin-left: 585px;
+  margin-top: 82px;
+  position: absolute;
+}
+.halfs:last-child p{
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  margin-top:16px;
+  margin-left:256px;
+}
